@@ -6,8 +6,9 @@ body{
     font-size: 14px;
 }
 
+.active a,
 .blue{
-    color:#399bd1;
+    color:#399bd1 !important;
 }
 
 .btns{
@@ -34,8 +35,12 @@ h3{
 
 /*Nav*/
 nav {
-    font-weight: 700;
-    font-size: 1.4rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.active a{
+    background-color: inherit !important;
 }
 
 @media only screen and (max-width: 768px){
@@ -69,6 +74,21 @@ nav {
     font-family: 'Monoton', cursive;
     font-size: 7.1rem;
 }
+
+@media only screen and (max-width: 768px){
+    .jumbotron-bike{
+        margin-top: 60px;
+        background-position: 70% 35%;
+    }
+    
+    .jumbotron p{
+        width: 90%;
+    }
+    
+    .jumbotron h1{
+        font-size: 5.7rem;
+    }
+}
 /*Featured*/
 
 .featured{
@@ -77,6 +97,7 @@ nav {
 
 .image-container img{
     width: 100%;
+    opacity: 0.75;
 }
 
 .featured h2{
@@ -92,6 +113,13 @@ nav {
 .projects{
     padding-top: 20px;
     margin-bottom: 5.85rem;
+}
+
+@media only screen and (max-width: 768px){
+    .project1,
+    .project2{
+        margin-bottom: 5.85rem;
+    }
 }
 
 /*Trouble*/
@@ -115,4 +143,11 @@ nav {
 .trouble-content p{
     width: 42rem;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px){
+    .trouble-content p{
+        width: 90%;
+        text-align: center;
+    }
 }
