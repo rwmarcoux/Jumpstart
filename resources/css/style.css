@@ -52,9 +52,9 @@ nav {
 
 /*Jumbotron*/
 
-.jumbotron-bike{
-    background: url('../img/jumbotron-bike.jpg');
-    background-position: center;
+.jumbotron{
+    height: 44rem;
+    background-repeat: no-repeat;
     text-align: center;
     color: #fff;
     text-shadow: -1px -1px 0 #000,
@@ -76,8 +76,32 @@ nav {
     font-size: 7.1rem;
 }
 
+.jumbotron-bike{
+    background: url('../img/jumbotron-bike.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-beer{
+    background: url('../img/jumbotron-beer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-flowers{
+    background: url('../img/jumbotron-flowers.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-duffel{
+    background: url('../img/jumbotron-duffel.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 @media only screen and (max-width: 768px){
-    .jumbotron-bike{
+    .jumbotron{
         margin-top: 60px;
         background-position: 70% 35%;
     }
